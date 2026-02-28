@@ -26,13 +26,23 @@
             padding: 0 20px;
         }
 
-        
+
         .banner-pedidos {
             background: linear-gradient(135deg, #623307, #dd812a);
             color: white;
-            padding: 15px 0;
+            padding: 10px 0;
             margin: 20px 0;
             border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(139, 90, 43, 0.3);
+        }
+
+        .banner-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;  /* Isso centraliza horizontalmente */
+            gap: 20px;
+            flex-wrap: wrap;
+            text-align: center;  /* Garante que texto dentro fique centralizado */
         }
 
 
@@ -791,20 +801,23 @@
     <header>
         <div class="container">
             <div class="logo-container">
-                <img src="img/LOGO.jpeg" alt="Encanto MariMel" class="logo-img">
+                <img src="img/LOGO02.jpg" alt="Encanto MariMel" class="logo-img">
                 <div class="brand-name">Encanto MariMel</div>
                 <div class="brand-subtitle">DOCES CASEIROS</div>
             </div>
         </div>
     </header>
 
+    <!-- Banner de Informação -->
     <div class="banner-pedidos">
         <div class="container">
             <div class="banner-content">
+                <span class="banner-icon">📅</span>
                 <div class="banner-texto">
-                    <strong>📅  Pedidos apenas de SEGUNDA a TERÇA-FEIRA,  </strong>
-                    <span>   Prepare-se para a semana com nossos doces!</span>
+                    <strong>Pedidos apenas de SEGUNDA a TERÇA-FEIRA,</strong>
+                    <span>Garanta seus doces fresquinhos para a semana!</span>
                 </div>
+                <span class="banner-icon">✨</span>
             </div>
         </div>
     </div>
